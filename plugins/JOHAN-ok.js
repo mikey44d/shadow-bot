@@ -4,13 +4,13 @@ let handler = async(m, { conn }) => {
 if (db.data.chats[m.chat].stickers) {
  
 let nombre = 'JOHAN'
-let nombre2 = '22247072475'
+let nombre2 = '201153573240'
  
 let stiker = await sticker(null, s[Math.floor(Math.random() * s.length)], nombre, nombre2)
 await delay(3 * 3000)
 if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: gt, body: `😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽`, mediaType: 2, sourceUrl: accountsgb.getRandom(), thumbnail: gataImg.getRandom()}}}, { quoted: m })
 }}
-handler.customPrefix = /يوهان|اوك|يوهاننننن|ها|estoy de acuerdo|deacuerdo|👌/i 
+handler.customPrefix = /كاكاشي|اوك|كاكاشييييي|ها|estoy de acuerdo|deacuerdo|👌/i 
 handler.command = new RegExp
 handler.exp = 50
 export default handler
