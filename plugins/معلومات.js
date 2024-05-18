@@ -7,12 +7,12 @@ conn.sendFile(m.chat, haha, 'error.jpg', `
  
  *『 ️الوتس 』⇦*
  
- https://wa.me/+22247072475?text=جاي_من_البوت_🫴🫀
+ https://wa.me/+201153573240?text=جاي_من_البوت_🫴🫀
  
  
 
  `, m)
 }
 handler.command = handler.help = ['معلومات','الدعم']
-handler.tags = ['kaneki']
+handler.tags = ['kaKASHI']
 export default handler
