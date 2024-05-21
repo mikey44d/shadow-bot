@@ -34,11 +34,11 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(900) 
   const taguser = '@' +  m.sender.split('@s.whatsapp.net')[0];
-let str = ` 𝑍𝛩𝑅𝛩
+let str = ` 𝑫𝒐𝒇𝒍𝒂𝒎𝒊𝒏𝒈𝒐
 
  *مرحبا,* ${taguser}
 
-*_<اوامر  رورونوا زورو/>_*   
+*_<اوامر   دون كيهوتيدو دو فلامينغو/>_*   
 
 *① ضع قبل كل أمر /*
 
@@ -187,7 +187,7 @@ let str = ` 𝑍𝛩𝑅𝛩
 
 *–––––––––– ·「☠️」· –––––––––*
 
-𝑍𝛩𝑅𝛩
+𝑫𝒐𝒇𝒍𝒂𝒎𝒊𝒏𝒈𝒐
 
 `.trim();
     
